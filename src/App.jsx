@@ -39,8 +39,8 @@ function App() {
         });
     }
 
-    function handleValidity() {
-        setIsInvalid(prevState => !prevState);
+    function handleValidity(value) {
+        setIsInvalid(value);
     }
 
 
